@@ -20,6 +20,9 @@ void ConcatStrings(char Str1[] , char Str2[])
     int Length1 = StrLength(Str1);
     int Length2 = StrLength(Str2); 
 
+    Str1[Length1] = ' ';
+    Length1++;
+
    for(int i=0; i<=Length2; i++)
    {
         Str1[Length1 + i] = Str2[i];
