@@ -14,19 +14,21 @@ int Length(char str[])
     return cnt;
 }
 
-void LowerToUpper(char str[])
+void UpperToLower(char str[])
 {
     int len = Length(str);
 
-    for(int i = 0; i < len; i++)
+    for(int i=0; i<len; i++)
     {
-        if(str[i] >= 'a' && str[i]<= 'z')
+        if((str[i])>='A' && (str[i])<='Z')
         {
-            str[i] = str[i] - 32;
+            str[i] = str[i] + 32;
         }
     }
 
-    cout<<"Converted String is :- "<<str<<endl;
+    cout<<"Converted String is :-- "<<str<<endl;
+
+
 }
 
 
@@ -38,8 +40,7 @@ int main()
     cin.getline(str,50);
 
 
-
-    LowerToUpper(str);
+    UpperToLower(str);
 
 
 
