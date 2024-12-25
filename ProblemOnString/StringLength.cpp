@@ -2,6 +2,8 @@
 //#include<cstring>
 using namespace std;
 
+
+//Count String Lenth
 int StrLengthX(char str[])
 {
     int cnt = 0;
@@ -19,7 +21,7 @@ int StrLengthX(char str[])
 
 int main()
 {
-   char ch = '\0';
+    char ch = '\0';
     char str[50];
 
     cout<<"Enter Your String :- ";
