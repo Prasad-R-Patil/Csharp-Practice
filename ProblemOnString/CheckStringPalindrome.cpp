@@ -15,6 +15,7 @@ int Length(char str[])
     return cnt;
 }
 
+//check string are Palindromec or not
 bool isPalindrome(char str[])
 {
     int len = Length(str);
