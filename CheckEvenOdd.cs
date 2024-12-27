@@ -10,6 +10,8 @@ public class CheckEvenOdd
         
         Console.WriteLine("Enter Your Number : ");
         iNo = Convert.ToInt32(Console.ReadLine());
+
+        //check no even or odd
         
         if(iNo % 2 == 0)
         {
